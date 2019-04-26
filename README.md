@@ -23,9 +23,14 @@ chmod a+x lancercescriptsurcentreonpoller.sh
 ./lancercescriptsurcentreonpoller.sh
 ```
 
+## /!\ You want to reboot Centreon ? A command has been defined for that /!\
+```
+reboot-centreon
+```
 
 ## Versions
 - **1.0** Kévin Perez
   - *New:* Repository added
+  - *New:* Add reboot function
 
 
