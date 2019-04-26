@@ -73,6 +73,14 @@ function RestartServices(){
 }
 
 function End(){	
+
+cat <<EOF > /usr/bin/reboot-centreon
+	#!/bin/bash
+	service centengine restart
+	service cbd restart
+	service centcore restart
+EOF
+
 	echo "Finish" >> logs
 }
 
