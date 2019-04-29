@@ -41,7 +41,7 @@ function UpdateSystem(){
 
 function InstallPlugins(){
 	echo "Install Plugins" >> logs
-	yum install nagios-plugins-* --skip-broken >> logs
+	yum install nagios-plugins-* --skip-broken -y >> logs
 }
 
 function ConfSudoers(){	
