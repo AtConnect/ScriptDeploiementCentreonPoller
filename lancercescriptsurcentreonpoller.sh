@@ -35,7 +35,8 @@ function UpdateSystem(){
 	echo "Update System" >> logs
 	yum update && yum upgrade -y >> logs
 	yum install iotop -y >> logs
-	yum install gcc -y >> logs	
+	yum install gcc -y >> logs
+	yum install centreon-broker-cbd -y >> logs	
 }
 
 function InstallPlugins(){
