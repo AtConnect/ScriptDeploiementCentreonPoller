@@ -52,7 +52,7 @@ function ConfSudoers(){
 
 function CopyScriptsOfNagios(){
 	echo "Installation plugins nagios" >> logs
-	cd /tmp/CENTREON/ ||  exit 1
+	cd /tmp/ScriptDeploiementCentreonPoller/CENTREON/ ||  exit 1
 	cp check_cpuusage_oneaccess.sh /usr/lib64/nagios/plugins/check_cpuusage_oneaccess.sh
 	cp check_cpuusage_zyxelusg40.sh /usr/lib64/nagios/plugins/check_cpuusage_zyxelusg40.sh
 	cp check_memory_oneaccess.sh /usr/lib64/nagios/plugins/check_memory_oneaccess.sh
