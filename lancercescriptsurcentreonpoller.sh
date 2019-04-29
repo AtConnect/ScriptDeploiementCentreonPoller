@@ -62,6 +62,11 @@ function CopyScriptsOfNagios(){
 	cp check_version_zyxelusg40.sh /usr/lib64/nagios/plugins/check_version_zyxelusg40.sh
 	cp check_vpn_usg40versionautomatique.sh /usr/lib64/nagios/plugins/check_vpn_usg40versionautomatique.sh
 	chmod -R 755 /usr/lib64/nagios/plugins/
+	cd /usr/lib64/nagios/plugins/
+	chmod u+s check_dhcp
+	chmod u+s check_fping
+	chmod u+s check_icmp
+	chmod u+s check_ide_smart
 }
 
 
