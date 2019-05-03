@@ -61,6 +61,7 @@ function CopyScriptsOfNagios(){
 	cp check_version_zyxelswitch.sh /usr/lib64/nagios/plugins/check_version_zyxelswitch.sh
 	cp check_version_zyxelusg40.sh /usr/lib64/nagios/plugins/check_version_zyxelusg40.sh
 	cp check_vpn_usg40versionautomatique.sh /usr/lib64/nagios/plugins/check_vpn_usg40versionautomatique.sh
+	cp check_NumberOfConnectedNebula.sh /usr/lib64/nagios/plugins/check_NumberOfConnectedNebula.sh
 	chmod -R 755 /usr/lib64/nagios/plugins/
 	cd /usr/lib64/nagios/plugins/
 	chmod u+s check_dhcp
