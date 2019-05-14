@@ -79,12 +79,13 @@ function RestartServices(){
 
 function End(){	
 
-cat <<EOF > /usr/bin/reboot-centreon
+cat <<EOF > /usr/bin/rebootcentreon
 	#!/bin/bash
-	service centengine restart
-	service cbd restart
+	/usr/sbin/service centengine restart
+	/usr/sbin/service cbd restart
+	service centreon restart
 EOF
-
+	chmod 777 /usr/bin/rebootcentreon
 	echo "Finish" >> logs
 }
 
