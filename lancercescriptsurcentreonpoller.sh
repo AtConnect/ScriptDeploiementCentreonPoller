@@ -98,7 +98,7 @@ main() {
         echo "################################################################################" 
 		echo -e "\033[45m#               Installation of Plugins and rights for Centreon            #\033[0m"
 		echo -e "\033[45m#                     Compatible with CentOS 7 at least                       #\033[0m"
-		echo "#                    Writed by Kévin Perez for AtConnect                       #"
+		echo "#                    Writen by Kévin Perez for AtConnect                       #"
 		echo "# The task is in progress, please wait a few minutes while i'm doing your job !#"
 		echo "################################################################################" 
 		echo "--------------------------------------------------------------------------------"
